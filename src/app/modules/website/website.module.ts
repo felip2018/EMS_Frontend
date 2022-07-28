@@ -9,6 +9,10 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { RouterModule } from '@angular/router';
 import { WebsiteTemplateComponent } from './template/template.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { StoreComponent } from './pages/store/store.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { WebsiteTemplateComponent } from './template/template.component';
     CartComponent,
     AboutUsComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HeaderComponent,
+    FooterComponent,
+    MenuComponent,
+    StoreComponent
   ],
   imports: [
     CommonModule,
