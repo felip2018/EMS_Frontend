@@ -14,6 +14,8 @@ import { AdminSalesComponent } from './pages/admin-sales/admin-sales.component';
 import { AdminProvidersComponent } from './pages/admin-providers/admin-providers.component';
 import { AdminUsersComponent } from './pages/admin-users/admin-users.component';
 import { AdminPurchasesComponent } from './pages/admin-purchases/admin-purchases.component';
+import { NavigationMenuComponent } from './components/navigation-menu/navigation-menu.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -30,6 +32,8 @@ import { AdminPurchasesComponent } from './pages/admin-purchases/admin-purchases
     AdminProvidersComponent,
     AdminUsersComponent,
     AdminPurchasesComponent,
+    NavigationMenuComponent,
+    FooterComponent,
   ],
   imports: [
     ApplicationRoutingModule,
